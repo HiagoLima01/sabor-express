@@ -103,9 +103,12 @@ class Restaurante:
         '''
         Adiciona um novo item no cardapio do restaurante
 
-        Checa se o parametro item realmente é um objeto da classe ItemCardapio
+        Checa se o parametro item realmente é um objeto da classe ItemCardapio, se ele for então o item é registrado
 
-        
+        Parâmetros
+
+        self:Obj    O próprio Restaurante
+        item:Obj    Objeto da classe ItemCardapio
         
         '''
 
